@@ -20,7 +20,7 @@ chown -R devops:devops /home/devops
 
 swapoff -a
 
-curl curl https://get.docker.com/ | bash
+curl https://get.docker.com/ | bash
 
 echo "installing kubernetes"
 
