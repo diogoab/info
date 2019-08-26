@@ -36,8 +36,8 @@ apt-get update
 
 apt-get install -y kubelet=1.13.5-00 kubeadm=1.13.5-00 kubectl=1.13.5-00
 
-mkdir ~/k8s-cluster
-cd ~/k8s-cluster
+mkdir /home/devops/k8s-cluster
+cd /home/devops/k8s-cluster
 
 ### Configurando o inventário
 cat <<EOF >> ~/k8s-cluster/hosts
