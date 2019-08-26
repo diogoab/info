@@ -40,7 +40,7 @@ mkdir /home/devops/k8s-cluster
 cd /home/devops/k8s-cluster
 
 ### Configurando o inventário
-cat <<EOF >> ~/k8s-cluster/hosts
+cat <<EOF >> /home/devops/k8s-cluster/hosts
 [masters]
 master ansible_host=k8s-manager ansible_user=root
 
