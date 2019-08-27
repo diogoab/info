@@ -14,7 +14,7 @@ echo "devops ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
 touch /home/devops/.ssh/authorized_keys 
 
-echo "ssh-rsa ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDATBkkYxFUTsjJ9WpKkddT0a+mcnoTu0/uH5YbjRPiNT787fwJ+AIEAQ6yfzgRx42xYHNZvdIbB5A5YfJNkaVNrRhromM1GtayHm8Q4sitSeoZUyFw4omigU9EWiyllG5SQfM8n9NBF1bGCM30DiIL6gtzKMepUpQlyqgdNgF15asL7vQ6mJEvw1HEkD6FbjCjY2v/XeADvORHjfj0AugbePyFeay+HdXRC3gSBQaZATWCN2UqMR4Y87KPG4DYHqL5rzCJkcC+U2LBQgwcUNRawCnWleKn0K7E5O+LjWV0y7/lkFyy4VMdPqRqSe11lsBvrCX+2kjnnKWi7g0JQpf3 DevOps-Everis" >> /home/devops/.ssh/authorized_keys
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAqR1+qsTXwCsLcjbCx9yFiLBB34wH1r5rpnKmn5k/FJwPSpGqC97qxl2QAIvEb0ppBYHQBWCB7JltlkcmHjb7tpC/s65n4w0JBdJkbZ/8jFOY0l4zP/zBPWQqcm8/TEa0ALIh32zbf+DNbjOutvrnnUayk1e9X3u5PH01urZYaARZca0J5M68FtGk1TfIJ0b3TnakLTDD2MpVG+7F7GrKo8iwPdb5rKsh/vQ1bk91PYBCnMd4lAv9kNOHGBK72DR50fycW3ZV0k3b49snyjaYHfYNsBSyuHHCyjm7HQYkbS9MBrnMulYSIQY7v7Ou9lOL9n+S1hRpB7cjhjuuqvHhaw== DevOps" >> /home/devops/.ssh/authorized_keys
 
 chown -R devops:devops /home/devops
 
