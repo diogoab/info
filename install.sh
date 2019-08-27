@@ -45,6 +45,6 @@ cat <<EOF >> /home/devops/k8s-cluster/hosts
 master ansible_host=k8s-manager ansible_user=root
 
 [workers]
-worker1 ansible_host=k8s-worker1 ansible_user=root
-worker2 ansible_host=k8s-worker2 ansible_user=root
+worker1 ansible_host=k8s-worker-1 ansible_user=root
+worker2 ansible_host=k8s-worker-2 ansible_user=root
 EOF
